@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href = "style.css">
+        <meta charset="utf-8">
+        <title> Tính điểm trung bình</title>
+       
+    </head>
+    <body>
+        <h1>Tính điểm trung bình cả năm </h1>
+        <p>Nhập điểm học kỳ 1 và học kỳ 2 để bắt đầu tính điểm trung bình cả năm</p>
+        
+        <div>
+            <label for ="avg1">Điểm học kỳ 1:</label>
+            <input type="number" class = "input" placeholder="Nhập điểm học kỳ 1" id ="avg1"/>
+        </div>
+        <div>
+            <label for ="avg2">Điểm học kỳ 2:</label>
+            <input type="number" class="input" placeholder="Nhập điểm học kỳ 2" id ="avg2"/>
+        </div>
+
+    
+        
+
+
+    
+    
+        <button onclick= "calcAvg()">Xác nhận</button>
+  
+        <p class ="result" id ="result">Điểm trung bình cả năm: <strong id="score"></strong></p>
+        <!--id is used to call in JS file(CSS is also) -->
+        <!--Connect HTML with Javascript -->
+        <script src="./index.js"></script>
+    </body>
+</html>

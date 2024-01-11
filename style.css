@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p{
+    background-color: #e4e4e4;
+    padding: 30px 20px;
+    font-size: 20px;
+}
+
+label{
+    font-weight: 500;
+    width: 300px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    padding: 15px;
+    width: 50%
+}
+
+div{
+    margin: 30px 0px;   
+    white-space: normal; 
+}
+
+button{
+    background-color: #3C16CA;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input{
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+.result{
+    background-color: #E3DFF1;
+    border: 2px solid #E3DFF1;
+    display: none; 
+    border-radius: 10px;
+}
+
+#score{
+    color: #3C16CA;
+}
+
+
